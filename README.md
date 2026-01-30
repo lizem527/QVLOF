@@ -1,2 +1,2 @@
-# VLOOF
-VLOOF: A Query-driven Layout Optimization Framework to Uniformly Enhance Approximate Nearest Neighbor Search
+# QVLOF
+QVLOF: A Query-driven Vector Layout Optimization Framework for I/O Efficient Approximate Nearest Neighbor Search
