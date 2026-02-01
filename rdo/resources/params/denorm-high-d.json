@@ -1,0 +1,17 @@
+{
+  "method": "d",
+  "config": "high",
+  "q": "high",
+  "k": 50,
+  "alpha": 80,
+  "eps": 0,
+  "gamma": 1,
+  "policy": "sw",
+  "interval": 200,
+  "res": 1000,
+  "lag": 0,
+  "seed": 42,
+  "equal": 1,
+  "load": 1,
+  "partial": 0.06
+}

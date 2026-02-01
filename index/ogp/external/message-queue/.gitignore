@@ -1,0 +1,6 @@
+build/
+.cache/
+build-*/
+compile_commands.json
+tags*
+/.dir-locals.el

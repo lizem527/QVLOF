@@ -1,0 +1,57 @@
+{
+    "version": 2,
+    "cmakeMinimumRequired": {
+        "major": 3,
+        "minor": 20,
+        "patch": 0
+    },
+    "configurePresets": [{
+        "name": "default",
+        "generator": "Ninja Multi-Config",
+        "binaryDir": "${sourceDir}/build-ninja/",
+        "cacheVariables": {
+            "CMAKE_EXPORT_COMPILE_COMMANDS": "ON",
+            "CMAKE_CXX_FLAGS": "-fconcepts-diagnostics-depth=3"
+        }
+    },
+    {
+        "name": "debug-make",
+        "generator": "Unix Makefiles",
+        "binaryDir": "${sourceDir}/build-make/Debug",
+        "cacheVariables": {
+            "CMAKE_BUILD_TYPE": "Debug",
+            "CMAKE_EXPORT_COMPILE_COMMANDS": "ON"
+        }
+    },
+    {
+        "name": "release-make",
+        "generator": "Unix Makefiles",
+        "binaryDir": "${sourceDir}/build-make/Release",
+        "cacheVariables": {
+            "CMAKE_BUILD_TYPE": "Release",
+            "CMAKE_EXPORT_COMPILE_COMMANDS": "ON"
+        }
+    }],
+    "buildPresets": [{
+        "name": "debug",
+        "configuration": "Debug",
+        "configurePreset": "default",
+        "jobs": 4
+    },
+                     {
+        "name": "release",
+        "configuration": "Release",
+        "configurePreset": "default",
+        "jobs": 4
+    },
+    {
+        "name": "debug-make",
+        "configurePreset": "debug-make",
+        "jobs": 4
+    },
+    {
+        "name": "release-make",
+        "configurePreset": "release-make",
+        "jobs": 4
+    }]
+}

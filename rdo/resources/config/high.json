@@ -1,0 +1,11 @@
+{
+  "cat_cols": [],
+  "date_cols": [],
+  "num_cols": [],
+  "int_cols": [],
+  "sort_cols": [],
+  "ds": "high",
+  "delimiter": ",",
+  "dim": 128,
+  "path": "/dataset/high"
+}

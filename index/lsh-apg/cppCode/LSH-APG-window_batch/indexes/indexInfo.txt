@@ -1,0 +1,65 @@
+./indexes/5w_base.index_divGraph
+T=24,L=2,K=18
+dist=267.276276, cnt=36.567680, unique=1, std=9.279998, Recall=0.001038
+cc=768.669067, pruning=0.373925, IndexingTime=1.391279 s.
+
+./indexes/5w_base.index_divGraph
+T=24,L=2,K=18
+dist=267.323242, cnt=36.567699, unique=1, std=9.281915, Recall=0.001098
+cc=767.917847, pruning=0.374052, IndexingTime=1.405791 s.
+
+./indexes/5w_base.index_divGraph
+T=16,L=2,K=16
+dist=261.575775, cnt=24.321260, unique=1, std=6.246022, Recall=0.000662
+cc=642.568909, pruning=0.271871, IndexingTime=1.098161 s.
+
+./indexes/5w_f2.index_divGraph
+T=16,L=2,K=16
+dist=247.384293, cnt=24.307440, unique=1, std=6.252880, Recall=0.001045
+cc=643.798584, pruning=0.270040, IndexingTime=1.150100 s.
+
+./indexes/5w_f3.index_divGraph
+T=16,L=2,K=16
+dist=262.487701, cnt=24.312441, unique=1, std=6.243713, Recall=0.000761
+cc=643.218811, pruning=0.270673, IndexingTime=1.056934 s.
+
+./indexes/5w_f4.index_divGraph
+T=16,L=2,K=16
+dist=302.384460, cnt=24.304260, unique=1, std=6.236965, Recall=0.000410
+cc=642.306152, pruning=0.271217, IndexingTime=1.058818 s.
+
+./indexes/5w_f5.index_divGraph
+T=16,L=2,K=16
+dist=292.028015, cnt=24.308599, unique=1, std=6.235869, Recall=0.000000
+cc=643.065613, pruning=0.271097, IndexingTime=1.038598 s.
+
+./indexes/5w_f6.index_divGraph
+T=16,L=2,K=16
+dist=305.083099, cnt=24.315241, unique=1, std=6.234048, Recall=0.000736
+cc=646.236511, pruning=0.270666, IndexingTime=1.068091 s.
+
+./indexes/5w_f7.index_divGraph
+T=16,L=2,K=16
+dist=307.109100, cnt=24.298000, unique=1, std=6.237263, Recall=0.000561
+cc=643.305176, pruning=0.271167, IndexingTime=1.073028 s.
+
+./indexes/5w_base.index_divGraph
+T=16,L=2,K=16
+dist=261.444031, cnt=24.306940, unique=1, std=6.236880, Recall=0.000715
+cc=642.246216, pruning=0.270401, IndexingTime=1.932676 s.
+
+./indexes/5w_base.index_divGraph
+T=16,L=2,K=16
+dist=261.290527, cnt=24.303080, unique=1, std=6.248249, Recall=0.000757
+cc=642.991455, pruning=0.270952, IndexingTime=1.949975 s.
+
+./indexes/5w_base.index_divGraph
+T=16,L=2,K=16
+dist=261.271484, cnt=24.304859, unique=1, std=6.232095, Recall=0.000704
+cc=642.709961, pruning=0.270055, IndexingTime=1.904923 s.
+
+./indexes/100w_base_q250.index_divGraph
+T=32,L=4,K=16
+dist=241.728928, cnt=48.900726, unique=1, std=12.272747, Recall=0.000111
+cc=2966.560791, pruning=0.358154, IndexingTime=377.890961 s.
+

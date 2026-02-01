@@ -1,0 +1,16 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -DCMAKE_C_COMPILER=/opt/homebrew/opt/llvm/bin/clang -DCMAKE_CXX_COMPILER=/opt/homebrew/opt/llvm/bin/clang++ -B build -DFAISS_ENABLE_GPU=OFF -DFAISS_ENABLE_PYTHON=OFF -DCMAKE_BUILD_TYPE=Release -G Ninja -S /Users/sairaj/faiss -B /Users/sairaj/faiss/cmake-build-debug
+-- Could NOT find MKL (missing: MKL_LIBRARIES) 
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/sairaj/faiss/cmake-build-debug
+
+Problems were encountered while collecting compiler information:
+	clang++: error: unsupported option '-mavx2' for target 'arm64-apple-darwin23.4.0'
+	clang++: error: unsupported option '-mfma' for target 'arm64-apple-darwin23.4.0'
+	clang++: error: unsupported option '-mf16c' for target 'arm64-apple-darwin23.4.0'
+	clang++: error: unsupported option '-mpopcnt' for target 'arm64-apple-darwin23.4.0'
+	clang++: error: unsupported option '-mavx512f' for target 'arm64-apple-darwin23.4.0'
+	clang++: error: unsupported option '-mavx512cd' for target 'arm64-apple-darwin23.4.0'
+	clang++: error: unsupported option '-mavx512vl' for target 'arm64-apple-darwin23.4.0'
+	clang++: error: unsupported option '-mavx512dq' for target 'arm64-apple-darwin23.4.0'
+	clang++: error: unsupported option '-mavx512bw' for target 'arm64-apple-darwin23.4.0'
