@@ -169,6 +169,7 @@ The **QSO** module implements static, query-driven vector layout optimization.
   - `z-order`
   - `hilbert`
   - `idistance`
+  - `adacurve`
   - `random`
 
 The script `qso/demo.py` provides a **one-click interface** to generate reordered layouts for all the above methods.
